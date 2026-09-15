@@ -1,0 +1,7 @@
+[project]
+name = 'multi-asset-optimization-lab'
+version = '0.1.0'
+description = 'SMA Quantitative Research module'
+requires-python = '>=3.11'
+dependencies = ['pandas','numpy','scipy','statsmodels','cvxpy','plotly','pyyaml']
+
