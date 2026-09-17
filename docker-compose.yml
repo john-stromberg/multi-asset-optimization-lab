@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  optimizer-dev:
+    build: .
+    container_name: multi-asset-optimizer-dev
+    volumes:
+      - .:/app
+      - /app/.venv
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    command: jupyter lab --ip=0.0.0.0 --allow-root --no-browser
+
+  optimizer-test:
+    build: .
+    container_name: multi-asset-optimizer-test
+    volumes:
+      - .:/app
+    command: pytest tests/ -v --cov=src
