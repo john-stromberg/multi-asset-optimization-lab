@@ -1,0 +1,21 @@
+{
+  "id": "opt_20260916_204625",
+  "created_at": "2026-09-16T20:46:25.908457",
+  "weights": {
+    "VTSAX": 0.2,
+    "VTIAX": 0.2,
+    "BND": 0.2,
+    "VGSLX": 0.2,
+    "GLD": 0.2
+  },
+  "expected_return": 0.056,
+  "expected_volatility": 0.06141661013113635,
+  "sharpe_ratio": 0.5861606481232526,
+  "status": "warning",
+  "warnings": [
+    "cvxpy not available; using equal-weight fallback"
+  ],
+  "metadata": {
+    "optimizer": "fallback_equal_weight"
+  }
+}

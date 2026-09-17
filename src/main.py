@@ -8,7 +8,7 @@ from datetime import datetime
 from pathlib import Path
 import sys
 
-from src.mean_variance_optimizer import MeanVarianceOptimizer, EfficientFrontier
+from mean_variance_optimizer import MeanVarianceOptimizer, EfficientFrontier
 from sma_quant_core.models import Asset, PortfolioConstraints, PortfolioConstraint
 from sma_quant_core.reporting import DecisionMemo, ReportGenerator
 

@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/core.py
+src/main.py
+src/mean_variance_optimizer.py
+src/multi_asset_optimization_lab.egg-info/PKG-INFO
+src/multi_asset_optimization_lab.egg-info/SOURCES.txt
+src/multi_asset_optimization_lab.egg-info/dependency_links.txt
+src/multi_asset_optimization_lab.egg-info/requires.txt
+src/multi_asset_optimization_lab.egg-info/top_level.txt
+tests/test_core.py
+tests/test_integration.py
+tests/test_mean_variance.py
