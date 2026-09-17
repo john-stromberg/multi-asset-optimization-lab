@@ -1,0 +1,94 @@
+{
+  "assets": [
+    {
+      "id": "VTSAX",
+      "category": "US Stocks",
+      "type": "equity",
+      "expected_return": 0.08,
+      "expected_volatility": 0.15,
+      "current_price": 105.32,
+      "asset_class": "large-cap domestic"
+    },
+    {
+      "id": "VTIAX",
+      "category": "International Stocks",
+      "type": "equity",
+      "expected_return": 0.08,
+      "expected_volatility": 0.17,
+      "current_price": 86.41,
+      "asset_class": "international developed + emerging"
+    },
+    {
+      "id": "BND",
+      "category": "Bonds",
+      "type": "fixed_income",
+      "expected_return": 0.04,
+      "expected_volatility": 0.05,
+      "current_price": 76.82,
+      "asset_class": "US aggregate bonds"
+    },
+    {
+      "id": "VGSLX",
+      "category": "Real Estate",
+      "type": "alternative",
+      "expected_return": 0.07,
+      "expected_volatility": 0.18,
+      "current_price": 68.59,
+      "asset_class": "REIT index"
+    },
+    {
+      "id": "GLD",
+      "category": "Gold",
+      "type": "alternative",
+      "expected_return": 0.05,
+      "expected_volatility": 0.15,
+      "current_price": 184.23,
+      "asset_class": "commodity (gold)"
+    }
+  ],
+  "constraints": [
+    {
+      "asset_id": "VTSAX",
+      "min_weight": 0.0,
+      "max_weight": 0.4
+    },
+    {
+      "asset_id": "VTIAX",
+      "min_weight": 0.0,
+      "max_weight": 0.3
+    },
+    {
+      "asset_id": "BND",
+      "min_weight": 0.1,
+      "max_weight": 0.5
+    },
+    {
+      "asset_id": "VGSLX",
+      "min_weight": 0.0,
+      "max_weight": 0.2
+    },
+    {
+      "asset_id": "GLD",
+      "min_weight": 0.0,
+      "max_weight": 0.15
+    }
+  ],
+  "portfolio_constraints": {
+    "budget": 1.0,
+    "min_portfolio_return": 0.05,
+    "max_portfolio_volatility": 0.10
+  },
+  "correlation_matrix": {
+    "date": "2026-09-16",
+    "matrix": [
+      [1.000, 0.687, -0.020, 0.563, -0.087],
+      [0.687, 1.000, 0.105, 0.691, 0.012],
+      [-0.020, 0.105, 1.000, -0.123, 0.234],
+      [0.563, 0.691, -0.123, 1.000, -0.156],
+      [-0.087, 0.012, 0.234, -0.156, 1.000]
+    ],
+    "assets": ["VTSAX", "VTIAX", "BND", "VGSLX", "GLD"],
+    "frequency": "monthly",
+    "lookback_period_days": 1260
+  }
+}
