@@ -1,0 +1,42 @@
+[
+  {
+    "id": "VTSAX",
+    "name": "Vanguard Total US Stock Market Index Fund",
+    "asset_class": "equity",
+    "expected_return": 0.08,
+    "volatility": 0.15,
+    "current_price": 95.50
+  },
+  {
+    "id": "VTIAX",
+    "name": "Vanguard Total International Stock Index Fund",
+    "asset_class": "equity",
+    "expected_return": 0.07,
+    "volatility": 0.18,
+    "current_price": 68.25
+  },
+  {
+    "id": "BND",
+    "name": "Vanguard Total Bond Market Index Fund",
+    "asset_class": "fixed_income",
+    "expected_return": 0.04,
+    "volatility": 0.05,
+    "current_price": 77.80
+  },
+  {
+    "id": "VGSLX",
+    "name": "Vanguard Real Estate Index Fund",
+    "asset_class": "alternative",
+    "expected_return": 0.06,
+    "volatility": 0.12,
+    "current_price": 142.30
+  },
+  {
+    "id": "GLD",
+    "name": "SPDR Gold Shares ETF",
+    "asset_class": "alternative",
+    "expected_return": 0.03,
+    "volatility": 0.15,
+    "current_price": 185.60
+  }
+]

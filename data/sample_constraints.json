@@ -1,0 +1,63 @@
+{
+  "budget_constraint": 1.0,
+  "constraints": [
+    {
+      "constraint_type": "min_weight",
+      "asset_id": "VTSAX",
+      "lower_bound": 0.10
+    },
+    {
+      "constraint_type": "max_weight",
+      "asset_id": "VTSAX",
+      "upper_bound": 0.60
+    },
+    {
+      "constraint_type": "min_weight",
+      "asset_id": "VTIAX",
+      "lower_bound": 0.10
+    },
+    {
+      "constraint_type": "max_weight",
+      "asset_id": "VTIAX",
+      "upper_bound": 0.35
+    },
+    {
+      "constraint_type": "min_weight",
+      "asset_id": "BND",
+      "lower_bound": 0.15
+    },
+    {
+      "constraint_type": "max_weight",
+      "asset_id": "BND",
+      "upper_bound": 0.50
+    },
+    {
+      "constraint_type": "min_weight",
+      "asset_id": "VGSLX",
+      "lower_bound": 0.00
+    },
+    {
+      "constraint_type": "max_weight",
+      "asset_id": "VGSLX",
+      "upper_bound": 0.25
+    },
+    {
+      "constraint_type": "min_weight",
+      "asset_id": "GLD",
+      "lower_bound": 0.00
+    },
+    {
+      "constraint_type": "max_weight",
+      "asset_id": "GLD",
+      "upper_bound": 0.10
+    },
+    {
+      "constraint_type": "min_return",
+      "lower_bound": 0.05
+    },
+    {
+      "constraint_type": "max_volatility",
+      "upper_bound": 0.12
+    }
+  ]
+}
